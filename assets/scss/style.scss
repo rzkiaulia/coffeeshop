@@ -1,0 +1,149 @@
+@import '~bulma/sass/utilities/mixins';
+@import '_variables';
+.has-max-width-120 {
+    width: 100%;
+    max-width: 120px;
+}
+
+.has-max-width-150 {
+    width: 100%;
+    max-width: 150px;
+}
+
+.has-max-width-200 {
+    width: 100%;
+    max-width: 200px;
+}
+
+.has-max-width-250 {
+    width: 100%;
+    max-width: 250px;
+}
+
+.has-max-width-300 {
+    width: 100%;
+    max-width: 300px;
+}
+
+.has-max-width-400 {
+    width: 100%;
+    max-width: 400px;
+}
+
+.has-max-width-500 {
+    width: 100%;
+    max-width: 500px;
+}
+
+.has-max-width-600 {
+    width: 100%;
+    max-width: 600px;
+}
+
+.has-text-brown {
+    color: #6A4029 !important;
+}
+
+.has-text-dark {
+    color: #4F5665 !important;
+}
+
+.is-yellow {
+    background-color: #FFBA33 !important;
+}
+
+.is-army {
+    background-color: #88B788 !important;
+}
+
+.is-mustard {
+    background-color: #F5C361 !important;
+}
+
+.is-salem {
+    background-color: #C59378 !important;
+}
+
+.is-brown {
+    background-color: #6A4029 !important;
+}
+
+.is-gray {
+    background-color: #9F9F9F !important;
+}
+
+.is-orange {
+    background-color: #F47B0A !important;
+}
+
+ul.unordered-list-radio {
+    position: relative;
+    >li {
+        position: relative;
+        padding: 0.25rem 0 0 2rem;
+        margin: 0 0 0.5rem;
+    }
+    >li::before {
+        position: absolute;
+        display: block;
+        content: ' ';
+        width: 15px;
+        height: 15px;
+        background-color: #2FAB73;
+        border-radius: 25rem;
+        top: 0.5rem;
+        left: 0;
+    }
+}
+
+.divider {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e6e6e6;
+    &.is-dark {
+        background-color: #394049;
+    }
+    &.is-vertical {
+        width: 1px;
+        height: 100%;
+    }
+}
+
+//tabs product
+.tabs {
+    position: relative;
+}
+
+.tabs ul {
+    border-width: 0;
+    padding-bottom: 5px;
+}
+
+.tabs ul li {
+    margin-right: 2.5rem;
+}
+
+.tabs ul li a {
+    position: relative;
+    padding: 0;
+    border-bottom-width: 0;
+    color: #9F9F9F;
+}
+
+.tabs li.is-active a {
+    color: #6A4029;
+    border-bottom-width: 0;
+}
+
+.tabs li.is-active a::before {
+    position: absolute;
+    display: block;
+    width: 105px;
+    height: 3px;
+    border-radius: 3px;
+    bottom: 0;
+    content: ' ';
+    background-color: #6A4029;
+}
